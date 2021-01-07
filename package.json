@@ -1,15 +1,29 @@
 {
-  "name": "metalabs_js",
+  "name": "meta-labs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": ""
+  "description": "Meta Labs API wrapper",
+  "keywords": [
+    "meta labs",
+    "payment processing",
+    "community",
+    "api"
+  ],
+  "homepage": "https://github.com/meta-labs/meta-labs-node",
+  "author": "Meta Labs <support@metalabs.io> (https://metalabs.io)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meta-labs/meta-labs-node.git"
   },
-  "keywords": [],
-  "author": "Imag <discord:YourImagination#5896>",
-  "license": "ISC",
+  "bugs:": "https://github.com/meta-labs/meta-labs-node/issues",
+  "engines": {
+    "node": "^8.1 || >=10.*"
+  },
+  "main": "index.js",
   "dependencies": {
     "axios": "^0.21.1"
+  },
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf ./node_modules/.cache"
   }
 }
