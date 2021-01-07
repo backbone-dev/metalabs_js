@@ -1,0 +1,15 @@
+{
+  "name": "metalabs_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "keywords": [],
+  "author": "Imag <discord:YourImagination#5896>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
